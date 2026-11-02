@@ -9,9 +9,9 @@ In Woche 5 gibt es keine Pflichtübung.
 
 | Teil | Thema | Funktion(en) | Skriptum |
 |---|---|---|---|
-| 1 | Tidy Data mit pandas | `breit_zu_tidy` | 4.2 |
-| 2 | Anscombes Quartett | `kennzahlen` | 5.1 |
-| 3 | Welch-t-Statistik und Permutationstest | `welch_t`, `perm_p`, `exakter_perm_p` | 6.1 bis 6.4 |
+| 1 | Tidy Data mit pandas | `wide_to_tidy` | 4.2 |
+| 2 | Anscombes Quartett | `summary_stats` | 5.1 |
+| 3 | Welch-t-Statistik und Permutationstest | `welch_t`, `perm_p`, `exact_perm_p` | 6.1 bis 6.4 |
 | 4 | Multiples Testen: Bonferroni und Benjamini-Hochberg | `bonferroni`, `benjamini_hochberg` | 7 |
 
 ## So arbeitest du
@@ -22,3 +22,5 @@ In Woche 5 gibt es keine Pflichtübung.
 3. Die Test-Zelle (`%%ipytest`) des jeweiligen Teils ausführen, bis alle Tests grün sind.
 
 Die Beispieldaten in Teil 1 und 3 sind fiktiv. Die Simulation in Teil 4 liefert dieselben Zahlen wie im Skriptum.
+
+Der Code ist durchgehend englisch (Funktionen, Variablen, Spaltennamen, Ausgaben). Kommentare und Tipps, die beim Lernen helfen, sind deutsch.
